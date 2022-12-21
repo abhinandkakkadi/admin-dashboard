@@ -66,26 +66,107 @@ body {
     
     display: grid;
     grid-template-columns: 10px 50px 4fr 50px 50px 1fr ;
-    grid-template-rows: 10px 50px 1fr;
+    grid-template-rows: 20px 50px 1fr;
+  
 }
 
 .one {
     grid-column: 2/3;
     grid-row: 2/3;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    
+   
     
 }
 
-/* .two {
-    width: 500px;
+.two {
+    width: 1000px;
     height: 30px;
-    background-color: black;
+    background-color: rgb(226, 225, 225);
     border-radius: 30px;
     grid-column: 3/4;
     grid-row: 2/3;
     
-} */
+}
 
-/* .three {
+.three {
     grid-column: 4/5;
     grid-row: 2/3;
-} */
+    position: relative;
+    top: 8px;
+    right: 30px;
+   
+
+}
+
+.four {
+    height: 30px;
+    width: 20px;
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.five {
+    grid-column: 6/7; 
+    grid-row: 2/3;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+
+.six {
+    grid-column: 2/3;
+    grid-row: 3;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    
+}
+
+.seven {
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 3; 
+    left: 100px;
+    top: 40px;
+}
+
+h1,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.eight {
+    grid-column: 4/5;
+    grid-row: 3;  
+    position: relative;
+    top: 60px;
+    
+}
+
+.nine {
+    grid-column: 5/6;
+    grid-row: 3; 
+    position: relative;
+    top: 60px; 
+    left: 10px;
+}
+
+.ten {
+    grid-column: 6/7;
+    grid-row: 3; 
+    position: relative;
+    top: 60px; 
+    left: 35px;
+}
+
+.eight > a,.nine > a,.ten > a{
+    text-decoration: none;
+    background-color: rgb(86, 160, 252);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
